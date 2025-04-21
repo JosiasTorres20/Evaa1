@@ -133,4 +133,18 @@ header{
 
 }
 
-.boton-enter
+.boton-enter{
+    background-color: rgb(13, 153, 153);
+    color: rgb(255, 255, 255);
+    padding: 2vh;
+    margin-top: 5vh;
+}
+
+.imagen-final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 10vh;
+    object-fit: cover;
+}
