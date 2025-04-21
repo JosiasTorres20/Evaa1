@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+}
+
+header{
+
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-nav{
+    color: white;
+    padding-left: 20vh;
+
+}
+
+#hero{
+    width: 100%;
+    height: 90vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/images/playa.jpg);
+    background-size: cover;
+    gap: 5vh;
+}
+
+.text-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    color: white;
+
+}
+.text-hero h1{
+    display: flex;
+    font-size: 10vh;
+
+}
+.hero-form{
+    display: flex;
+
+    width: 30%;
+    height: 60%;
+    background-color: white;
+
+}
+.hero-form h1{
+    padding: 0 auto;
+    width: 90%;
+    font-size: 2vh;
+    
+    padding-top: 4vh;
+}
+.hero-form input{
+    width: 90%;
+    padding: 2vh;
+}
